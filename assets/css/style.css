@@ -1,0 +1,151 @@
+.mainContainer {
+    position: relative;
+    background: Gray;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 0px;
+}
+.mainContainer:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 720px;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url("../images//crystalBG3.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+
+}
+.mainContainer img; {
+	border-radius: 16px;
+}
+
+
+
+.divBanner {
+	width: 100%;
+	height: 100px;
+	background-color: White;
+	border-radius: 16px;
+	border: solid 3px Gray;
+
+}
+
+.divGame {
+	width: 900px;
+	height: 650px;
+	border-radius: 16px	;
+	position: absolute;
+	background-color: White;
+	opacity: 0.8;
+	top: 150px;
+	right: 100px;
+	z-index: 3;
+	text-align: center;
+}
+
+.divSideBar {
+	width: 500px;
+	height: 650px;
+	border-radius: 16px	;
+	position: absolute;
+	background-color: White;
+	opacity: 0.8;
+	top: 150px;
+	left: 100px;
+	z-index: 3;
+	text-align: center;
+}
+
+.imgContainer {
+	width: 900px;
+	height: 200px;
+	margin-top: 400px;
+	margin-left: 0px;
+	
+}
+
+.imgContainer img {
+	width: 200px;
+	height: 150px;
+	padding: 0;
+	margin-top: 40px;
+	
+}
+
+
+.gameCanvas {
+	width: 100%;
+	height: 720px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: White;
+	display: inline-block;
+	border-radius: 16px;
+	text-align: center;
+	font-size: 28px;
+	position: relative;
+
+}
+
+.divCrystalCount {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: #A97A4D;
+	opacity: .8;
+	top: 200px;
+	right: 120px;
+	z-index: 4;
+	text-align: center;
+}
+
+.divCrystalCount h2 {
+	color: White;
+	text-align: center;
+	margin: 0px;
+}
+
+.divCrystalCount p {
+	color: White;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 64px;
+}
+
+
+
+
+#divAvengerChallengeCount {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: #A97A4D;
+	opacity: .8;
+	top: 60px;
+	left: 650px;
+	z-index: 4;
+	text-align: center;
+}
+
+
+#divAvengerChallengeCount h2 {
+	color: White;
+	text-align: center;
+	margin: 0px;
+}
+
+#divAvengerChallengeCount p {
+	color: White;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 64px;
+}
